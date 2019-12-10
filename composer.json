@@ -24,12 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "CodexSoft\\Code\\Classes\\": "src/"
+            "CodexSoft\\Code\\Classes\\": ["src/"]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "": ["vendor/", "tests/unit/"]
+            "CodexSoft\\Code\\Classes\\": ["src/", "tests/unit/"],
+            "": ["vendor/"]
         }
     }
 }
