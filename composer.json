@@ -29,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CodexSoft\\Code\\Classes\\": ["src/", "tests/unit/"],
+            "CodexSoft\\Code\\Classes\\": ["tests/unit/"],
             "": ["vendor/"]
         }
     }
